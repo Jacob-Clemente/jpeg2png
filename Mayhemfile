@@ -1,0 +1,5 @@
+project: jacob-clemente/jpeg2png
+target: jpeg2png
+
+cmds:
+  - cmd: /jpeg2png @@ -o out.png -f
