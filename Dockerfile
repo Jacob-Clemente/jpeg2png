@@ -6,7 +6,7 @@ RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y cmake
 
 RUN apt-get update && \
-    DEBIAN_FRONTEND=noninteractive apt-get install -y build-essential
+    DEBIAN_FRONTEND=noninteractive apt-get install -y gcc
 
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y libjpeg-dev libpng-dev
